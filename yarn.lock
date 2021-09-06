@@ -26,12 +26,10 @@ csstype@^3.0.2:
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.0.8.tgz#d2266a792729fb227cd216fb572f43728e1ad340"
   integrity sha512-jXKhWqXPmlUeoQnF/EhTtTl4C9SnrxSH/jZUih3jmO6lBKr99rP3/+FmrMj4EFpOXzMtXHAZkd3x0E6h6Fgflw==
 
-gulog-js@^1.0.11:
-  version "1.0.11"
-  resolved "https://registry.yarnpkg.com/gulog-js/-/gulog-js-1.0.11.tgz#6b6c377596c5a98b0f921f241e93d8ebe5998792"
-  integrity sha512-pkfMiRtay4Wa9cinV7DD4nBgPm3wKtY80yDKw9BRqCUOvDY0Q125FgBq0dRs7d3sWkG01qpm3Ru2cHpfi7YSTQ==
-  dependencies:
-    node-fetch "^2"
+gulog-js@^1.0.12:
+  version "1.0.12"
+  resolved "https://registry.yarnpkg.com/gulog-js/-/gulog-js-1.0.12.tgz#07fd880a5af917020801314dde8ceefdf49c652a"
+  integrity sha512-a6GeH2kX/DcoFCn5mOUG/0q6/oycakwmRWWhqvf2m/24QrtiYdFI+Zz0eMmnGPLjMiYqLaKboOR+Y+r9JjiLhA==
 
 "js-tokens@^3.0.0 || ^4.0.0":
   version "4.0.0"
@@ -44,11 +42,6 @@ loose-envify@^1.1.0:
   integrity sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==
   dependencies:
     js-tokens "^3.0.0 || ^4.0.0"
-
-node-fetch@^2:
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
-  integrity sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==
 
 object-assign@^4.1.1:
   version "4.1.1"

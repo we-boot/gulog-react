@@ -15,7 +15,7 @@
     "react": "*"
   },
   "dependencies": {
-    "gulog-js": "^1.0.11",
+    "gulog-js": "^1.0.12",
     "react": "^17.0.2"
   }
 }
