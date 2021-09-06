@@ -33,7 +33,7 @@ export function GulogProvider<T extends string = string>(props: {
     children: (process: Gulog.Process) => React.ReactNode;
 }) {
     const parent = useContext(GulogContext);
-    let gulog = useGulog(props.type, props.initiatorData, parent, props.overrideSettings);
+    const gulog = useGulog(props.type, props.initiatorData, parent, props.overrideSettings);
 
     return <GulogContext.Provider value={gulog}>{props.children(gulog)}</GulogContext.Provider>;
 }
